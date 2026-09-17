@@ -3,7 +3,13 @@
   "buildCommand": "cd frontend && yarn build",
   "outputDirectory": "frontend/build",
   "installCommand": "cd frontend && yarn install --frozen-lockfile",
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.12"
+    }
+  },
   "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.py" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

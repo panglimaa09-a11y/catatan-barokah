@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#141210" />
+        <meta name="description" content="CatatanBarokah Telur — catatan keuangan usaha telur: dashboard, uang masuk & keluar, dan nota digital. Anti-gravitasi, barokah setiap hari." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+        <title>CatatanBarokah Telur — Catatan Keuangan Usaha Telur</title>
+        <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
+        <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <script>
+            (function (t, e) {
+                if (e.__SV) return;
+                window.posthog = e;
+                e._i = [];
+                e.init = function (i, s) {
+                    function g(obj, token) {
+                        var parts = token.split(".");
+                        if (parts.length === 2) {
+                            obj = obj[parts[0]];
+                            token = parts[1];
+                        }
+                        obj[token] = function () {
+                            obj.push([token].concat(Array.prototype.slice.call(arguments, 0)));
+                        };
+                    }
+                    var scriptEl = t.createElement("script");
+                    scriptEl.type = "text/javascript";
+                    scriptEl.crossOrigin = "anonymous";
+                    scriptEl.async = true;
+                    scriptEl.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js";
+                    var first = t.getElementsByTagName("script")[0];
+                    first.parentNode.insertBefore(scriptEl, first);
+                    var stub = e;
+                    if (typeof i !== "undefined") {
+                        stub = e[i] = [];
+                    } else {
+                        i = "posthog";
+                    }
+                    stub.people = stub.people || [];
+                    stub.toString = function () {
+                        return "posthog (stub)";
+                    };
+                    var names = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded identify setPersonProperties group resetGroups set_config reset".split(" ");
+                    for (var k = 0; k < names.length; k++) g(stub, names[k]);
+                    e._i.push([i, s]);
+                };
+                e.__SV = 1;
+            })(document, window.posthog || []);
+            posthog.init("phc_DbsPb39SRc8z3EiQ6Dhj6ikv4H4rTKcht9d4sZSesceP", {
+                api_host: "https://ap.emergent.sh",
+                person_profiles: "identified_only",
+                session_recording: {
+                    recordCrossOriginIframes: true,
+                    capturePerformance: false,
+                },
+            });
+        </script>
+    </body>
+</html>

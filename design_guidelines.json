@@ -1,0 +1,84 @@
+{
+  "app_name": "catatanBarokah Telur",
+  "context": "E-Commerce & Bookkeeping Financial Web App for Small Egg (Telur) Business in Indonesia",
+  "theme": "Warm Organic & Earthy with 3D Anti-Gravity Elements (Archetype 1 + Luxury Touch)",
+  "typography": {
+    "heading_font": "Playfair Display",
+    "body_font": "Inter / Plus Jakarta Sans",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-bold",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-semibold",
+      "h3": "text-xl sm:text-2xl font-medium",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base sm:text-sm text-stone-600",
+      "label": "text-xs uppercase tracking-[0.2em] font-semibold text-amber-800"
+    }
+  },
+  "colors": {
+    "primary": "#D97706",
+    "primary_hover": "#B45309",
+    "background_light": "#FAF9F5",
+    "background_card": "#FFFFFF",
+    "stone_dark": "#1C1917",
+    "accent_gold": "#F59E0B",
+    "accent_sage": "#10B981",
+    "border_subtle": "rgba(217, 119, 6, 0.15)",
+    "forbidden_color_check": "Checked. #7351B7 and #1B93A4 avoided."
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-amber-500/20 shadow-[0_8px_32px_rgba(217,119,6,0.08)]",
+    "shadows": "shadow-xl shadow-amber-950/5",
+    "radius": "rounded-2xl",
+    "textures": "Subtle warm noise overlay & golden glowing gradient orbs"
+  },
+  "component_path": "/app/frontend/src/components/",
+  "grids": {
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-4 gap-6",
+    "tetris_grid": "grid grid-cols-1 md:grid-cols-12 gap-8"
+  },
+  "layouts": {
+    "header": "Sticky glassmorphism navigation with brand logo, smooth scroll navigation links, currency badge, and Quick Action CTA",
+    "hero_section": "Landing page with 3D Anti-Gravity Floating Egg interactive Canvas (React Three Fiber + Drei Float + Framer Motion), headline in Indonesian, and stats counter",
+    "dashboard_section": "Comprehensive bookkeeping dashboard with financial stats (Pemasukan, Pengeluaran, Laba Bersih, Stok Telur Peti), interactive Recharts graphs, quick entry modals",
+    "transaction_section": "Uang Masuk & Uang Keluar table with filters, badge categories (Grosir, Warung, Pakan, Operasional), search, and Rp currency formatting",
+    "nota_section": "Digital professional Receipt (Nota) generator with thermal print preview, customer details, itemized egg crates (peti/rak/butir), and print support"
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-in-out",
+    "hover_effects": "hover:-translate-y-1 hover:shadow-2xl",
+    "entrance": "Framer Motion staggered fade-up and floating physics"
+  },
+  "accessibility": {
+    "contrast": "APCA compliant high contrast dark text (#1C1917) on warm sand backgrounds (#FAF9F5)",
+    "aria_labels": "All interactive buttons and inputs equipped with aria-labels and data-testid attributes"
+  },
+  "media": {
+    "hero_3d": "Interactive 3D Floating Egg with anti-gravity physics simulator using React Three Fiber",
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://images.unsplash.com/photo-1668069109703-bab425dfa031",
+        "description": "Golden luxury egg 3D render for brand visual anchor"
+      },
+      {
+        "category": "farm_eggs",
+        "url": "https://images.unsplash.com/photo-1598965675045-45c5e72c7d05",
+        "description": "Fresh farm eggs basket in warm lighting"
+      },
+      {
+        "category": "abstract_gold",
+        "url": "https://images.pexels.com/photos/10053361/pexels-photo-10053361.jpeg",
+        "description": "Modern abstract golden sphere background"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a gorgeous, fully functional Indonesian finance & bookkeeping web app named 'catatanBarokah Telur'.",
+    "Include a stunning landing page featuring a 3D Anti-Gravity Floating Egg interactive canvas using React Three Fiber / Drei Float.",
+    "Include complete Financial Dashboard with total revenue, expenses, net profit, and egg stock tracking in Peti/Rak.",
+    "Include Uang Masuk & Uang Keluar transaction management with category filtering and real-time balance updates.",
+    "Include Nota (Digital Receipt) generator with itemized calculation and printable thermal layout.",
+    "Ensure all interactive elements have data-testid attributes for testing.",
+    "Use Indonesian language throughout the UI ('Pemasukan', 'Pengeluaran', 'Stok Peti', 'Nota Pembelian', etc.)."
+  ]
+}

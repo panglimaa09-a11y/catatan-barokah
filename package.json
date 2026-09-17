@@ -1,0 +1,12 @@
+{
+  "name": "catatan-barokah-vercel",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:frontend": "yarn --cwd frontend install --frozen-lockfile",
+    "build": "yarn --cwd frontend build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
